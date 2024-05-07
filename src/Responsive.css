@@ -1,0 +1,183 @@
+/* Responsive.css */
+
+@media screen and (max-width: 479px) {
+    .navbar {
+        flex-direction: column;
+        width: 100%; 
+        align-items: center;
+        white-space: initial;
+      }
+    .navbar1 h2 {
+        font-size: 20px;
+    }
+    .navbar2 {
+        width: 100%;
+    }
+    .navbar3 {
+        
+    }
+    .navbar1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .hame{
+        height: 20px;
+        width: 150px;
+    }
+    .search{
+        height: 20px;
+        width: 150px;
+    }
+    .navbar2 p{
+        font-size: 7px;
+        font-weight: 700;
+    }
+    .navbar3 p{
+        font-size: 7px;
+        font-weight: 700;
+    }
+    .main-left h3{
+        font-size: 12px;
+        
+    }
+    .main-left{
+        margin-left: -30px;
+        width: 100%;
+    }
+    .image1{
+       display: none;
+    }
+    .main-left-text{
+        padding-top: 35px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .main-left-text h3{
+        font-size: 15px;
+        
+    }
+    .main1{
+        width: 100%;
+        flex-direction: column; 
+    }
+    .expand h5{
+        display: none;
+    }
+    .date {
+        padding-top: 10px;
+    }
+    .date p{
+        font-size:14px
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+    .image2{
+        width: 200px;
+        height: 100px;
+    }
+    .all{
+        padding: 10px 20px;
+    }
+    .image3{
+        width: 200px;
+        height: 100px;
+    }
+    .expands{
+        padding-top: 20px;
+    }
+    .date p{
+        font-size: 10px;
+    }
+    .main-right{
+        width: 100%;
+        padding-right: 20px;
+        margin-right: auto; /* Move to the left side */
+        margin-left: 0;
+        padding:10px 10px;
+        
+    }
+    .main-right h3{
+        font-size: 15px;
+    }
+    .main-right2 h5{
+        font-size:15px;
+        color:black
+    }
+    .date{
+        display: none;
+    }
+    .main-right1{
+        order: 2;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .main-right1 ol {
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+        display: flex;
+        flex-wrap: wrap; /* Wrap list items to the next line */
+    }
+    .main-right1 ol li {
+        margin-bottom: 5px; /* Add some space between list items */
+        margin-right: 10px; /* Add some space between list items */
+    }
+    .list {
+        font-size: 10px;
+    }
+    .main-right1 {
+        margin-right: 20px; /* Adjust margin-right as needed */
+        width: calc(100% - 40px); /* Adjust width to compensate for margins */
+    }
+    .gateway h4{
+        font-size:10px
+    }
+    .small{
+        height: 30px;
+        width: 30px;
+    }
+    
+    
+    .no{
+        display: none;
+    }
+    .media{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .media1{
+        margin-right:20px ;
+    }
+    
+    .podcast h3{
+        font-size: 15px;
+    }
+    .podcast h4{
+        font-size:15px
+    }
+    .podcast{
+        height: 350px;
+    }
+    .collect{
+        margin-bottom:20px;
+        justify-content: space-evenly;
+        
+    }
+    .collections{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .collections h4{
+        font-size: 10px;
+    }
+    .collections p{
+        font-size: 8px;
+    }
+    .border1{
+        display: none;
+    }  
+      
+}
