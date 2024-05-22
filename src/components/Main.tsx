@@ -8,7 +8,7 @@ const Main = () => {
     <div className='the'>
         <div className='main1'>
       <div className='main-left'>
-        <h3>FEATURED STORIES</h3>
+        <h3>FEATURED STORIES FOR YOU</h3>
         <div className='main-left1'>
           <img className='image1'src="https://cdn.thenewstack.io/media/2024/04/42186af6-charlie-harris-i99y2odfl_k-unsplash-1-1024x683.jpg" alt='img1'/>
           <div className='main-left-text'>
